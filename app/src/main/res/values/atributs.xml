@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="calculatorBackround" format="color"/>
+    <attr name="calculatorCardBackraund" format="color"/>
+    <attr name="calculatorButtonBackraund" format="color"/>
+    <attr name="calculatorTextColor" format="color"/>
+</resources>

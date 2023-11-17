@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/calculatorBackround"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:cardBackgroundColor="?attr/calculatorCardBackraund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/TopCornerRadius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="18dp"
+                        android:src="@drawable/group_58" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    app:cardBackgroundColor="?attr/calculatorButtonBackraund"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="%"
+                        android:textColor="?attr/calculatorTextColor"
+                        android:textSize="30sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    app:cardBackgroundColor="?attr/calculatorButtonBackraund"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="÷"
+                        android:textColor="?attr/calculatorTextColor"
+                        android:textSize="30sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    app:cardBackgroundColor="?attr/calculatorButtonBackraund"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="×"
+                        android:textColor="?attr/calculatorTextColor"
+                        android:textSize="30sp" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    app:cardBackgroundColor="?attr/calculatorButtonBackraund"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="?attr/calculatorTextColor"
+                        android:textSize="30sp" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="?attr/calculatorTextColor"
+                    android:textSize="30sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    app:cardBackgroundColor="?attr/calculatorButtonBackraund"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="+"
+                        android:textColor="?attr/calculatorTextColor"
+                        android:textSize="30sp" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:text="AC"
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center"
+                            android:text="."
+                            android:textColor="?attr/calculatorTextColor"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="64dp"
+                    android:layout_height="145dp"
+                    android:text="="
+                    android:textSize="30sp">
+
+                </com.google.android.material.button.MaterialButton>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
